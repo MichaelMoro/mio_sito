@@ -1,10 +1,9 @@
 
 var alimentazioneHTML = "contenuti/alimentazione.html";
+var homeHTML = "contenuti/home.html";
 
 
 function apriAlimentazione() {
-    var htmlCodice = document.querySelector("#contenuto_pagina_centrale").innerHTML;
-
     $ajaxUtils.sendGetRequest(
         alimentazioneHTML,
         function (responseText) {
@@ -15,6 +14,12 @@ function apriAlimentazione() {
 };
 
 function ritornaHome() {
-    document.querySelector("#contenuto_pagina_centrale")
-        .innerHTML = "Prova";
+
+    $ajaxUtils.sendGetRequest(
+        homeHTML,
+        function (responseText) {
+            document.querySelector("#contenuto_pagina_centrale")
+                .innerHTML = responseText;
+        })
+
 }
