@@ -2,6 +2,7 @@
 var alimentazioneHTML = "contenuti/alimentazione.html";
 var homeHTML = "contenuti/home.html";
 var crossfitHTML = "contenuti/crossfit.html";
+var smartHTML = "contenuti/smart.html";
 
 
 function apriAlimentazione() {
@@ -26,6 +27,15 @@ function ritornaHome() {
 function apriCrossfit() {
     $ajaxUtils.sendGetRequest(
         crossfitHTML,
+        function (responseText) {
+            document.querySelector("#contenuto_pagina_centrale")
+                .innerHTML = responseText;
+        })
+}
+
+function apriSmart() {
+    $ajaxUtils.sendGetRequest(
+        smartHTML,
         function (responseText) {
             document.querySelector("#contenuto_pagina_centrale")
                 .innerHTML = responseText;
