@@ -21,8 +21,10 @@ li:hover {
     text-align: center;
     width: 100%;
     font-size: 1em;
+    height: 60%;
     background: #c3c6bd;
-    height: 100%;
+    clear: right;
+
 }
 
 /* Stili per la tabella di alimentazione */
@@ -68,9 +70,25 @@ li:hover {
 /*Stile per schermo OnePlus */
 @media (min-width: 350px) and (max-width: 400px) {
 
-    .col-xs-3 {
+    .bg-dark {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+        border-radius: 0;
+    }
+
+    .col-xs-6,
+    .col-xs-3,
+    .col-xs-12 {
         float: left;
 
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .col-xs-6 {
+        width: 50%;
     }
 
     .col-xs-3 {
@@ -92,5 +110,16 @@ li:hover {
     a,
     u {
         text-decoration: none;
+    }
+
+    #instagram {
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+
+    #nominativo {
+        padding-top: 5px;
+        padding-left: 5px;
     }
 }
