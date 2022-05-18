@@ -2,7 +2,6 @@
 var alimentazioneHTML = "contenuti/alimentazione.html";
 var homeHTML = "contenuti/home.html";
 
-
 function apriAlimentazione() {
     $ajaxUtils.sendGetRequest(
         alimentazioneHTML,
@@ -22,4 +21,8 @@ function ritornaHome() {
                 .innerHTML = responseText;
         })
 
+
+
+
 }
+

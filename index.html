@@ -16,7 +16,7 @@
                 <svg class="bi" width="16" height="32">
                     <use xlink:href="#"></use>
                 </svg>
-                <span class="fs-4">Menù</span>
+                <span class="fs-4">#viewport</span>
             </p>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
@@ -54,6 +54,9 @@
         <div id="contenuto_pagina_centrale">Pagina iniziale del sito di utility di Michael
 
         </div>
+        <script>
+            document.getElementById("contenuto_pagina_centrale").innerHTML = window.innerWidth + " " + window.innerHeight;
+        </script>
 
         <script src="js/bootstrap.min.js"></script>
         <script src="js/ajax-utils.js"></script>

@@ -20,14 +20,14 @@ li:hover {
     padding-left: 5px;
     padding-top: 5px;
     text-align: center;
-    width: 60%;
+    width: 80%;
     font-size: 1em;
     background: #c3c6bd;
     height: 100%;
 }
 
 #barra_laterale {
-    width: 40%;
+    width: 20%;
     float: left;
     height: 100%;
 }
@@ -69,4 +69,15 @@ li:hover {
 
 .fl-table tr:nth-child(even) {
     background: #F8F8F8;
+}
+
+/*STILE CONTAINER HOME*/
+#containerHome {
+    height: 100%;
+}
+
+#containerHome div {
+    border: solid 1px black;
+    height: 100%;
+    float: left;
 }
