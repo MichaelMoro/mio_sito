@@ -11,53 +11,43 @@
     </head>
 
     <body>
-        <div id="barra_laterale" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark">
-            <p class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                <svg class="bi" width="16" height="32">
-                    <use xlink:href="#"></use>
-                </svg>
-                <span class="fs-4">#viewport</span>
-            </p>
-            <hr>
-            <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-white me-2" onclick="ritornaHome()">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-white me-2" onclick="apriAlimentazione()">
-                        Alimentazione
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-white me-2">
-                        Piano
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-white me-2">
-
-                        Info
-                    </a>
-                </li>
-            </ul>
-            <hr>
-            <div class="d-flex align-items-center text-white text-decoration-none" id="user1">
-                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/01/18/11/juve-as-smart-object-1.jpg"
-                    alt="" width="32" height="32" class="rounded-circle me-2">
-                <strong>Michael</strong>
+        <!-- QUESTO E' IL MENU ORIZZONTALE NERO -->
+        <header>
+            <div class="px-1 py-2 bg-dark text-white">
+                <div class="container">
+                    <div class="flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <ul class="nav my-2 justify-content-center my-md-0 text-small">
+                            <li class="col-xs-3 nav-link ">
+                                <a href="#" class="text-white" onclick="ritornaHome()">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="col-xs-3 nav-link">
+                                <a href="#" class="text-white" onclick="apriAlimentazione()">
+                                    Alimentazione
+                                </a>
+                            </li>
+                            <li class="col-xs-3 nav-link">
+                                <a href="#" class="text-white">
+                                    Piano
+                                </a>
+                            </li>
+                            <li class="col-xs-3 nav-link">
+                                <a href="#" class="text-white">
+                                    Info
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+
+        </header>
 
 
         <div id="contenuto_pagina_centrale">Pagina iniziale del sito di utility di Michael
 
         </div>
-        <script>
-            document.getElementById("contenuto_pagina_centrale").innerHTML = window.innerWidth + " " + window.innerHeight;
-        </script>
-
         <script src="js/bootstrap.min.js"></script>
         <script src="js/ajax-utils.js"></script>
         <script src="js/script.js"></script>

@@ -17,31 +17,24 @@ li:hover {
 
 #contenuto_pagina_centrale {
     float: left;
-    padding-left: 5px;
     padding-top: 5px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     font-size: 1em;
     background: #c3c6bd;
     height: 100%;
 }
 
-#barra_laterale {
-    width: 20%;
-    float: left;
-    height: 100%;
-}
-
-/* Table Styles */
+/* Stili per la tabella di alimentazione */
 
 .table-wrapper {
-    margin: 10px 70px 70px;
-    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+    margin: 10px 10px 10px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .fl-table {
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 3px;
+    font-size: 8px;
     font-weight: normal;
     border: 1px;
     border-collapse: collapse;
@@ -54,12 +47,12 @@ li:hover {
 .fl-table td,
 .fl-table th {
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 
 .fl-table td {
     border-right: 1px solid #c3c6bd;
-    font-size: 12px;
+    font-size: 5px;
 }
 
 .fl-table th {
@@ -71,13 +64,33 @@ li:hover {
     background: #F8F8F8;
 }
 
-/*STILE CONTAINER HOME*/
-#containerHome {
-    height: 100%;
-}
 
-#containerHome div {
-    border: solid 1px black;
-    height: 100%;
-    float: left;
+/*Stile per schermo OnePlus */
+@media (min-width: 350px) and (max-width: 400px) {
+
+    .col-xs-3 {
+        float: left;
+
+    }
+
+    .col-xs-3 {
+        flex: 0 0 auto;
+        width: 25%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .nav-link {
+        padding: 0.5rem 3px;
+    }
+
+    a,
+    u {
+        text-decoration: none;
+    }
 }
