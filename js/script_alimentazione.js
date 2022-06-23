@@ -5,11 +5,11 @@ var alimento3colazione = Array("Noci", "Cioccolato");
 var spuntino_mattina = Array("Skyr", "Danone", "Yogurt Bianco", "Budino");
 
 var pranzo_allenamento1 = Array("Wasa", "Gallette", "Crackers", "Patate 120g", "Piselli 120g");
-var pranzo_allenamento2 = Array("Seppioline", "Calamari", "Platessa", "Salmone", "Pollo", "Tacchino", "Bovino", "Bresaola", "Tonno"); //Da sistemare e aggiungere dettaglio
+var pranzo_allenamento2 = Array("Seppioline 180g", "Calamari 180g", "Platessa 180g", "Salmone 180g", "Pollo 150g", "Tacchino 150g", "Bovino 150g", "Bresaola", "Tonno"); //Da sistemare e aggiungere dettaglio
 var pranzo_allenamento3 = Array("Carote", "Insalata", "Zucchine");
 
 var pranzo_non_allenamento1 = Array("Pasta 70g", "Pasta 70g", "Riso 70g", "Riso 70g", "Patate 300g", "Gnocchi di patate 150g");
-var pranzo_non_allenamento2 = Array("Seppioline", "Calamari", "Platessa", "Salmone", "Pollo", "Tacchino", "Bovino", "Bresaola", "Tonno", "Bovino"); //Da sistemare e aggiungere dettaglio
+var pranzo_non_allenamento2 = Array("Seppioline 150g", "Calamari 150g", "Platessa 150g", "Salmone 150g ", "Pollo 130g", "Tacchino 130g", "Bovino 130g", "Bresaola", "Tonno", "Bovino"); //Da sistemare e aggiungere dettaglio
 var pranzo_non_allenamento3 = Array("Carote", "Insalata", "Zucchine");
 
 var spuntino_pomeriggio_allenamento1 = Array("Skyr", "Danone", "Yogurt Bianco", "Budino", "Budino", "Latte e Proteine");
@@ -19,7 +19,7 @@ var spuntino_pomeriggio_non_allenamento2 = Array("Noci", "Cioccolato");
 
 
 var cena_allenamento1 = Array("Pasta 110g", "Riso 110g");
-var cena_allenamento2 = Array("Seppioline", "Calamari", "Platessa", "Salmone", "Pollo", "Pollo", "Tacchino", "Bovino"); //Da sistemare e aggiungere dettaglio
+var cena_allenamento2 = Array("Seppioline 120g", "Calamari 120g", "Platessa 120g", "Salmone 120g", "Pollo 120g", "Pollo 120g", "Tacchino 120g", "Bovino 120g"); //Da sistemare e aggiungere dettaglio
 var cena_allenamento3 = Array("Carote", "Insalata");
 
 var cena_non_allenamento1 = Array("Wasa", "Crackers", "Wasa", "Crackers", "Patate 120g", "Pane 50g");
