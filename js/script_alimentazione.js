@@ -281,10 +281,10 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
 
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
     }
 
     if (myArr[0] == "S") {
@@ -319,10 +319,10 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
 
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
     }
 
     if (myArr[1] == "S") {
@@ -356,10 +356,10 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
 
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
     }
 
     if (myArr[2] == "S") {
@@ -393,10 +393,10 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
 
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
     }
 
     if (myArr[3] == "S") {
@@ -429,10 +429,10 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
         pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
 
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
     }
 
     if (myArr[4] == "S") {
