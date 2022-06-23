@@ -1,106 +1,137 @@
-<h1>Alimentazione</h1>
-<div class="table-wrapper">
-    <table class="fl-table">
-        <tr>
-            <th></th>
-            <th>Lunedì</th>
-            <th>Martedì</th>
-            <th>Mercoledì</th>
-            <th>Giovedì</th>
-            <th>Venerdì</th>
-            <th>Sabato</th>
-            <th>Domenica</th>
-        </tr>
-        <tr>
-            <td>Colazione</td>
-            <td>Wasa<br>
-                Latte + proteine<br>
-                Noci</td>
-            <td>Fette biscottate <br>
-                Yogurt bianco<br>
-                Cioccolato
-            </td>
-            <td>Wasa <br>
-                Fage<br>
-                Noci</td>
-            <td>Fragole<br>
-                Fage<br>
-                Noci</td>
-            <td>Kiwi<br>
-                Hipro<br>
-                Cioccolato</td>
-            <td>Pancakes</td>
-            <td>-</td>
-        </tr>
-        <tr>
-            <td>Spuntino</td>
-            <td>Budino</td>
-            <td>Hipro</td>
-            <td>Budino</td>
-            <td>Yogurt bianco</td>
-            <td>Skyr</td>
-            <td>-</td>
-            <td>-</td>
-        </tr>
-        <tr>
-            <td>Pranzo</td>
-            <td>Crackers<br>
-                Bresaola<br>
-                Carote
-            </td>
-            <td>Crackers<br>
-                Tonno<br>
-                Carote</td>
-            <td>Riso <br>
-                Petto di Tacchino <br>
-                Insalata</td>
-            <td>Patate<br>
-                Calamari<br>
-                Insalata
-            </td>
-            <td>Gallette<br>
-                Petto di Tacchino<br>
-                Zucchine</td>
-            <td>Gnocchi patate <br>
-                Bovino <br>
-                Zucchine
-            </td>
-            <td>Quel che c'è <br> Insalata</td>
-        </tr>
-        <tr>
-            <td>Spuntino</td>
-            <td>Mandarino <br> Cioccolato</td>
-            <td>Succo <br> Budino</td>
-            <td>Banana <br>Cioccolato
-            </td>
-            <td>Gallette<br>
-                Proteine</td>
-            <td>Barretta <br> Proteine</td>
-            <td>Kiwi <br>
-                Noci</td>
-            <td>Fragole <br> Noci</td>
-        </tr>
-        <tr>
-            <td>Cena</td>
-            <td>Pasta<br>
-                Pollo<br>
-                Insalata</td>
-            <td>Riso<br>
-                Bovino<br>
-                Insalata</td>
-            <td>Pane<br>
-                2 uova<br>
-                Carote</td>
-            <td>Riso<br>
-                Pollo<br>
-                Carote</td>
-            <td>Pasta<br>
-                Platessa<br>
-                Insalata</td>
-            <td>-</td>
-            <td>Wasa <br>
-                Platessa<br>
-                Carote</td>
-        </tr>
-    </table>
-</div>
+<!DOCKTYPE html>
+    <html>
+
+        <head>
+
+        </head>
+
+        <body>
+            <div style="font-size: 12px; padding-left: 2%; float:left;">
+
+                <div style="font-size: 12px;">Giorni di allenamento</div>
+                <label class="containerAlim">
+                    <input type="checkbox" id="lunediAllenamento">
+                    <span class="checkmark"></span>Lunedì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="martediAllenamento">
+                    <span class="checkmark"></span>Martedì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="mercolediAllenamento">
+                    <span class="checkmark"></span>Mercoledì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="giovediAllenamento">
+                    <span class="checkmark"></span>Giovedì
+                </label>
+                <label class="containerAlim">
+                    <input type="checkbox" id="venerdiAllenamento">
+                    <span class="checkmark"></span>Venerdi
+                </label>
+
+            </div>
+
+            <div style="font-size: 12px; padding-left: 50%">
+                <div>Giorni di Milano</div>
+                <label class="containerAlim">
+                    <input type="checkbox" id="lunediMilano">
+                    <span class="checkmark"></span>Lunedì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="martediMilano">
+                    <span class="checkmark"></span>Martedì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="mercolediMilano">
+                    <span class="checkmark"></span>Mercoledì
+                </label>
+
+                <label class="containerAlim">
+                    <input type="checkbox" id="giovediMilano">
+                    <span class="checkmark"></span>Giovedì
+                </label>
+                <label class="containerAlim">
+                    <input type="checkbox" id="venerdiMilano">
+                    <span class="checkmark"></span>Venerdi
+                </label>
+
+            </div>
+            <button class="noselect" onclick="GeneraMenu()">Genera menù</button>
+
+
+            <div class="table-wrapper">
+                <table class="fl-table">
+                    <tr>
+                        <th></th>
+                        <th>Lunedì</th>
+                        <th>Martedì</th>
+                        <th>Mercoledì</th>
+                        <th>Giovedì</th>
+                        <th>Venerdì</th>
+                        <th>Sabato</th>
+                        <th>Domenica</th>
+                    </tr>
+                    <tr>
+                        <td>Colazione</td>
+                        <td id="colazioneLun"></td>
+                        <td id="colazioneMar"></td>
+                        <td id="colazioneMer"></td>
+                        <td id="colazioneGio"></td>
+                        <td id="colazioneVen"></td>
+                        <td id="colazioneSab">Pancakes</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Spuntino</td>
+                        <td id="spuntinoMattinoLun"></td>
+                        <td id="spuntinoMattinoMar"></td>
+                        <td id="spuntinoMattinoMer"></td>
+                        <td id="spuntinoMattinoGio"></td>
+                        <td id="spuntinoMattinoVen"></td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Pranzo</td>
+                        <td id="pranzoLunedi"> </td>
+                        <td id="pranzoMartedi"></td>
+                        <td id="pranzoMercoledi"></td>
+                        <td id="pranzoGiovedi"> </td>
+                        <td id="pranzoVenerdi"></td>
+                        <td id="pranzoSabato"> </td>
+                        <td>Quel che c'è</td>
+                    </tr>
+                    <tr>
+                        <td>Spuntino</td>
+                        <td id="spuntinoPomeriggioLun"></td>
+                        <td id="spuntinoPomeriggioMar"></td>
+                        <td id="spuntinoPomeriggioMer"></td>
+                        <td id="spuntinoPomeriggioGio"></td>
+                        <td id="spuntinoPomeriggioVen"></td>
+                        <td id="spuntinoPomeriggioSab"></td>
+                        <td id="spuntinoPomeriggioDom"></td>
+                    </tr>
+                    <tr>
+                        <td>Cena</td>
+                        <td id="cenaLunedi"> </td>
+                        <td id="cenaMartedi"></td>
+                        <td id="cenaMercoledi"></td>
+                        <td id="cenaGiovedi"> </td>
+                        <td id="cenaVenerdi"></td>
+                        <td id="cenaSabato"> </td>
+                        <td id="cenaDomenica"> </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+        </body>
+
+    </html>
