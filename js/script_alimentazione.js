@@ -23,7 +23,7 @@ var cena_allenamento2 = Array("Seppioline 120g", "Calamari 120g", "Platessa 120g
 var cena_allenamento3 = Array("Carote", "Insalata");
 
 var cena_non_allenamento1 = Array("Wasa", "Crackers", "Wasa", "Crackers", "Patate 120g", "Pane 50g");
-var cena_non_allenamento2 = Array("Seppioline", "Calamari", "Platessa", "Salmone", "Pollo", "2 uova", "Tacchino", "Bovino"); //Da sistemare e aggiungere dettaglio
+var cena_non_allenamento2 = Array("Seppioline 180g", "Calamari 180g", "Platessa 180g", "Salmone 180g", "Pollo 150g", "2 uova", "Tacchino 150g", "Bovino 150g"); //Da sistemare e aggiungere dettaglio
 var cena_non_allenamento3 = Array("Carote", "Insalata");
 
 
