@@ -276,15 +276,15 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
     var pranzoVenerdi = document.getElementById("pranzoVenerdi");
 
     if (myArr2[0] == "S") {
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone 180g');
 
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone 150g');
     }
 
     if (myArr[0] == "S") {
@@ -302,27 +302,27 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
     }
 
     if (myArr2[0] == "S") {
-        pranzo_allenamento2.push("Seppioline");
-        pranzo_allenamento2.push("Calamari");
-        pranzo_allenamento2.push("Platessa");
-        pranzo_allenamento2.push("Salmone");
-        pranzo_non_allenamento2.push("Seppioline");
-        pranzo_non_allenamento2.push("Calamari");
-        pranzo_non_allenamento2.push("Platessa");
-        pranzo_non_allenamento2.push("Salmone");
+        pranzo_allenamento2.push("Seppioline 180g");
+        pranzo_allenamento2.push("Calamari 180g");
+        pranzo_allenamento2.push("Platessa 180g");
+        pranzo_allenamento2.push("Salmone 180g");
+        pranzo_non_allenamento2.push("Seppioline 150g");
+        pranzo_non_allenamento2.push("Calamari 150g");
+        pranzo_non_allenamento2.push("Platessa 150g");
+        pranzo_non_allenamento2.push("Salmone 150g");
     }
 
 
     if (myArr2[1] == "S") {
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone 180g');
 
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone 150g');
     }
 
     if (myArr[1] == "S") {
@@ -339,27 +339,27 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzoMartedi.innerHTML += pranzo_non_allenamento3[Math.floor(Math.random() * pranzo_non_allenamento3.length)]
     }
     if (myArr2[1] == "S") {
-        pranzo_allenamento2.push("Seppioline");
-        pranzo_allenamento2.push("Calamari");
-        pranzo_allenamento2.push("Platessa");
-        pranzo_allenamento2.push("Salmone");
-        pranzo_non_allenamento2.push("Seppioline");
-        pranzo_non_allenamento2.push("Calamari");
-        pranzo_non_allenamento2.push("Platessa");
-        pranzo_non_allenamento2.push("Salmone");
+        pranzo_allenamento2.push("Seppioline 180g");
+        pranzo_allenamento2.push("Calamari 180g");
+        pranzo_allenamento2.push("Platessa 180g");
+        pranzo_allenamento2.push("Salmone 180g");
+        pranzo_non_allenamento2.push("Seppioline 150g");
+        pranzo_non_allenamento2.push("Calamari 150g");
+        pranzo_non_allenamento2.push("Platessa 150g");
+        pranzo_non_allenamento2.push("Salmone 150g");
     }
 
 
     if (myArr2[2] == "S") {
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone 180g');
 
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone 150g');
     }
 
     if (myArr[2] == "S") {
@@ -376,22 +376,22 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzoMercoledi.innerHTML += pranzo_non_allenamento3[Math.floor(Math.random() * pranzo_non_allenamento3.length)]
     }
     if (myArr2[2] == "S") {
-        pranzo_allenamento2.push("Seppioline");
-        pranzo_allenamento2.push("Calamari");
-        pranzo_allenamento2.push("Platessa");
-        pranzo_allenamento2.push("Salmone");
-        pranzo_non_allenamento2.push("Seppioline");
-        pranzo_non_allenamento2.push("Calamari");
-        pranzo_non_allenamento2.push("Platessa");
-        pranzo_non_allenamento2.push("Salmone");
+        pranzo_allenamento2.push("Seppioline 180g");
+        pranzo_allenamento2.push("Calamari 180g");
+        pranzo_allenamento2.push("Platessa 180g");
+        pranzo_allenamento2.push("Salmone 180g");
+        pranzo_non_allenamento2.push("Seppioline 150g");
+        pranzo_non_allenamento2.push("Calamari 150g");
+        pranzo_non_allenamento2.push("Platessa 150g");
+        pranzo_non_allenamento2.push("Salmone 150g");
     }
 
 
     if (myArr2[3] == "S") {
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone 180g');
 
         pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
         pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
@@ -413,26 +413,26 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzoGiovedi.innerHTML += pranzo_non_allenamento3[Math.floor(Math.random() * pranzo_non_allenamento3.length)]
     }
     if (myArr2[3] == "S") {
-        pranzo_allenamento2.push("Seppioline");
-        pranzo_allenamento2.push("Calamari");
-        pranzo_allenamento2.push("Platessa");
-        pranzo_allenamento2.push("Salmone");
-        pranzo_non_allenamento2.push("Seppioline");
-        pranzo_non_allenamento2.push("Calamari");
-        pranzo_non_allenamento2.push("Platessa");
-        pranzo_non_allenamento2.push("Salmone");
+        pranzo_allenamento2.push("Seppioline 180g");
+        pranzo_allenamento2.push("Calamari 180g");
+        pranzo_allenamento2.push("Platessa 180g");
+        pranzo_allenamento2.push("Salmone 180g");
+        pranzo_non_allenamento2.push("Seppioline 150g");
+        pranzo_non_allenamento2.push("Calamari 150g");
+        pranzo_non_allenamento2.push("Platessa 150g");
+        pranzo_non_allenamento2.push("Salmone 150g");
     }
 
     if (myArr2[4] == "S") {
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Seppioline 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Calamari 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Platessa 180g');
+        pranzo_allenamento2 = pranzo_allenamento2.filter(e => e !== 'Salmone 180g');
 
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa');
-        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Seppioline 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Calamari 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Platessa 150g');
+        pranzo_non_allenamento2 = pranzo_non_allenamento2.filter(e => e !== 'Salmone 150g');
     }
 
     if (myArr[4] == "S") {
@@ -449,14 +449,14 @@ function GeneraPranzo(controlloAllenamento, controlloMilano) {
         pranzoVenerdi.innerHTML += pranzo_non_allenamento3[Math.floor(Math.random() * pranzo_non_allenamento3.length)]
     }
     if (myArr2[4] == "S") {
-        pranzo_allenamento2.push("Seppioline");
-        pranzo_allenamento2.push("Calamari");
-        pranzo_allenamento2.push("Platessa");
-        pranzo_allenamento2.push("Salmone");
-        pranzo_non_allenamento2.push("Seppioline");
-        pranzo_non_allenamento2.push("Calamari");
-        pranzo_non_allenamento2.push("Platessa");
-        pranzo_non_allenamento2.push("Salmone");
+        pranzo_allenamento2.push("Seppioline 180g");
+        pranzo_allenamento2.push("Calamari 180g");
+        pranzo_allenamento2.push("Platessa 180g");
+        pranzo_allenamento2.push("Salmone 180g");
+        pranzo_non_allenamento2.push("Seppioline 150g");
+        pranzo_non_allenamento2.push("Calamari 150g");
+        pranzo_non_allenamento2.push("Platessa 150g");
+        pranzo_non_allenamento2.push("Salmone 150g");
     }
 
     pranzoSabato.innerHTML = pranzo_non_allenamento1[Math.floor(Math.random() * pranzo_non_allenamento1.length)]
